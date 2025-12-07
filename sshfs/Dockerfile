@@ -27,7 +27,6 @@ COPY rootfs /
 
 
 # Copy data for add-on
-COPY run.sh /
 RUN chmod a+x /usr/bin/run.sh
 
 CMD [ "run.sh" ]
